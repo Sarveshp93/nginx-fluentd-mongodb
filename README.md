@@ -16,10 +16,10 @@ docker-compose up -d
 # Verification
 - Hit nginx webserver URL couple of times either using curl/http. Ex. curl http://localhost:80
 - Login to mongoDB container using: docker exec -it <container_id> /bin/sh
-- Go to the database: use httpd;   
+- Go to the database: use nginx;   
 - Find the logs in collection: db.access.find();
 - For every hit to nginx server, you should see the logs in this collection.
 
-PS. Database name httpd and collection name access is configured in fluent.conf
+PS. Database name nginx and collection name access is configured in fluent.conf
 
 
