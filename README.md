@@ -5,8 +5,9 @@ You can send the nginx access/error logs to MongoDB using fluentd as a log drive
 You need docker and docker-compose installed
 
 # Usage
-After copying the docker-compose.yaml and required conf files, run the below command.
-
+Copy the docker-compose.yaml and other required conf files, run the below command.
+git clone https://github.com/sarikaj2/nginx-fluentd-mongodb.git
+cd nginx-fluentd-mongodb
 docker-compose up -d
 
 # Verification
