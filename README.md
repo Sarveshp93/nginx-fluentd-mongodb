@@ -6,8 +6,11 @@ You need docker and docker-compose installed
 
 # Usage
 Copy the docker-compose.yaml and other required conf files, run the below command.
+
 git clone https://github.com/sarikaj2/nginx-fluentd-mongodb.git
+
 cd nginx-fluentd-mongodb
+
 docker-compose up -d
 
 # Verification
