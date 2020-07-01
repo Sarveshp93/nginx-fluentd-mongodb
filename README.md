@@ -6,6 +6,7 @@ You need docker and docker-compose installed
 
 # Usage
 After copying the docker-compose.yaml and required conf files, run the below command.
+
 docker-compose up -d
 
 # Verification
@@ -14,6 +15,7 @@ docker-compose up -d
 - Go to the database: use httpd;   
 - Find the logs in collection: db.access.find();
 - For every hit to nginx server, you should see the logs in this collection.
+
 PS. Database name httpd and collection name access is configured in fluent.conf
 
 
